@@ -1,0 +1,58 @@
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Never"
+shape = "Block"
+
+[colors.primary]
+background = '#282828' # Fondo oficial Gruvbox Dark
+foreground = '#ebdbb2' # Texto crema oficial Gruvbox
+
+[colors.cursor]
+text = '#282828'
+cursor = '#fe8019' # Naranja característico de Gruvbox
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "Buttonless"
+dynamic_padding = true
+opacity = 0.76
+startup_mode = "Windowed"
+dimensions = {columns = 138, lines = 28}
+blur = true
+
+[window.padding]
+x = 12
+y = 12
+
+[general]
+live_config_reload = true
